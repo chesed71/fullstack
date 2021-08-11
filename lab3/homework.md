@@ -188,4 +188,4 @@ python training/run_experiment.py --max_epochs=10 --gpus=1 --num_workers=4 --dat
 
     `CharacterErrorRate` : 레벤슈타인 거리를 이용해서 각 문자에 대한 에러율 표시
 
-    `greedy_decode` : 각각 확률 중에서 가장 큰 것을 argmax해서 선택 
+    `greedy_decode` : 각각 확률 중에서 가장 큰 것을 다음 step의 입력으로 사용
